@@ -1,0 +1,18 @@
+{
+  "name": "pixora-ai",
+  "version": "0.4.0",
+  "private": true,
+  "description": "PIXORA AI with Gemini problem analysis and hosted Real-ESRGAN enhancement",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@gradio/client": "^1.16.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.3.0",
+    "jimp": "^0.22.12",
+    "multer": "^2.5.0",
+    "sharp": "^0.35.5"
+  }
+}
